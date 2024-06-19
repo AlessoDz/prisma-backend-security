@@ -33,7 +33,7 @@ public class User {
     private String address;
     private Date birthDate;
 
-    @Column(length = 100000) // Example size for profile image storage
+    @Column(length = 100000)
     private String profile;
 
     // Getters & setters
